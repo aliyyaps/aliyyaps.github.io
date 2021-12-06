@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Calisto-MT";
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.medsos {
+    padding: 15px 0;
+    background-color: darksalmon;
+}
+
+.medsos ul li {
+    display: inline-block;
+    color: white;
+    margin-right: 15px;
+    float: left;
+}
+
+.containerr {
+    float: right;   
+}
+
+.containerr a:hover {
+    color: black;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header h1 {
+    text-align: center;
+    padding: 15px 0;
+    color: coral;
+}
+
+.banner {
+    height: 75vh;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(251, 160, 122, .4);
+}
+
+.banner h2 {
+    color: white;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid white;
+}
+
+section {
+    padding: 12px 0;
+}
+
+section h3 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: coral;
+}
+
+.about p {
+    word-spacing: 2px;
+    line-height: 25px;
+    padding: 20px 200px;
+    text-align: center;
+}
+
+.about h4 {
+    text-align: center;
+    padding-top: 30px;
+    color: coral;
+}
+
+.name {
+    text-align: center;
+    padding-top: 0;
+}
+
+.label {
+    background-color: darksalmon;
+    color: white;
+}
+
+.contact .contact-info {
+    display: flex;
+    height: 60vh;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box .kolom {
+    width: 100%;
+    padding: 13px;
+}
+
+.form {
+}
+
+.form input {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.form textarea {
+    width: 100%;
+    height: 50px;
+    margin-top: 0.5rem;
+}
+
+footer {
+    padding: 10px 0;
+    background-color: darksalmon;
+    text-align: center;
+}
